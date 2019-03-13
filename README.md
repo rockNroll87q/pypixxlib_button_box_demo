@@ -14,8 +14,6 @@ The code works creating a separate thread that constantly checks the presence of
 
 In a regular experiment, in the case you need to control the button box in python, you just need to copy and paste part of the code and control the button pressed event as you prefer.
 
-See the [video](https://github.com/rockNroll87q/) for a demo.
-
 ### How to use it
 
 * Run with `python ./button_box_demo.py` or IDE;
