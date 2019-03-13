@@ -6,7 +6,7 @@ A simple demo for the VPixx Technologies's RESPONSEPixx/MRI (4-button response b
 
 <p align="center">
 
-<img src="https://github.com/rockNroll87q/pypixxlib_button_box_demo/blob/master/demo_video.gif" width="200" height="200" />  
+<img src="https://github.com/rockNroll87q/pypixxlib_button_box_demo/blob/master/demo_video.gif" width="524" height="295" />  
 
 </p>
 
