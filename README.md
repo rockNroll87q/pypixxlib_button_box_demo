@@ -1,4 +1,4 @@
-# pypixxlib_button_box_demo
+# pypixxlib button box demo
 
 A simple demo for the VPixx Technologies's RESPONSEPixx/MRI (4-button response box, [link](http://vpixx.com/products/responsepixx-mri-handheld/)). This is useful if you want to check that everything is working properly with the python wrapper pypixxlib for the button box.
 
