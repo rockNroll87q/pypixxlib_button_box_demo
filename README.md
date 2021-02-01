@@ -22,7 +22,8 @@ In a regular experiment, in the case you need to control the button box in pytho
 
 ## What should I do in my experiment?
 
-In order to use the code in your experiment, I created a short and easy to plugin version in which all the material needed is in a file. 
+In order to use the code in your experiment, I created a short and easy to plugin version in which all the material needed is in a file. Steps are the following. 
+
 Initialise the button box thread at the beginning of your code.
 
 ~~~
