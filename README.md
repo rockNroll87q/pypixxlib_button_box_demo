@@ -2,7 +2,7 @@
 
 A simple demo for the VPixx Technologies's RESPONSEPixx/MRI (4-button response box, [link](http://vpixx.com/products/responsepixx-mri-handheld/)). This is useful if you want to check that everything is working properly with the python wrapper pypixxlib for the button box.
 
-### What it does? 
+## What it does? 
 
 <p align="center">
 
@@ -14,14 +14,15 @@ The code works creating a separate thread that constantly checks the presence of
 
 In a regular experiment, in the case you need to control the button box in python, you just need to copy and paste part of the code and control the button pressed event as you prefer.
 
-### How to use it
+## How to use it
 
 * Run with `python ./button_box_demo.py` or IDE;
 * Play with VPixx button box;
 * Press `Esc` o `q` to finish.
 
-### What should I do in my experiment?
+## What should I do in my experiment?
 
+In order to use the code in your experiment, I created a short and easy to plugin version in which all the material needed is in a file. 
 Initialise the button box thread at the beginning of your code.
 
 ~~~
@@ -45,7 +46,7 @@ End the thread at the end of the experiment.
 button_thread.stop()
 ~~~ 
 
-### What you need to run it?
+## What you need to run it?
 
 * Python2.x (3.x should work as well) 
 * Psychopy ([link](http://www.psychopy.org/))
