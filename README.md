@@ -20,6 +20,31 @@ In a regular experiment, in the case you need to control the button box in pytho
 * Play with VPixx button box;
 * Press `Esc` o `q` to finish.
 
+### What should I do in my experiment?
+
+Initialise the button box thread at the beginning of your code.
+
+~~~
+from button_box_threading import buttonBoxThread
+button_thread = buttonBoxThread(1, "bottom box check")
+button_thread.start()
+~~~
+ 
+Check for the scanner trigger (o button box) when you need to.
+
+~~~
+button_state = button_thread.button_state
+  while 1:
+    if(button_state['state'][-1]==0):
+      break
+~~~
+ 
+End the thread at the end of the experiment.
+
+~~~
+button_thread.stop()
+~~~ 
+
 ### What you need to run it?
 
 * Python2.x (3.x should work as well) 
