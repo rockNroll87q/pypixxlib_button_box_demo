@@ -47,6 +47,11 @@ End the thread at the end of the experiment.
 button_thread.stop()
 ~~~ 
 
+## Authors
+
+[Michele Svanera](https://www.michelesvanera.org/)
+
+
 ## What you need to run it?
 
 * Python2.x (3.x should work as well) 
