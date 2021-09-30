@@ -56,6 +56,6 @@ button_thread.stop()
 
 ## What you need to run it?
 
-* Python2.x (3.x should work as well) 
+* Python2.x or 3.x
 * Psychopy ([link](http://www.psychopy.org/))
-* pypixxlib (python wrapper, see [vpixx](http://vpixx.com/) website)
+* pypixxlib (python wrapper, see [vpixx](http://vpixx.com/) website) [it works for both python versions]
